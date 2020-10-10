@@ -217,7 +217,7 @@
                                     <i class="nav-icon fas fa-paw"></i>
                                     <p>
                                         Mascotas
-                                        <?php use App\pets; $pets_count = Pets::all()->count(); ?>
+                                        <?php use App\Pets; $pets_count = Pets::all()->count(); ?>
                                         <span class="right badge badge-danger">{{ $pets_count ?? '0' }}</span>
                                     </p>                                                                        
                                 </a>
